@@ -1,0 +1,581 @@
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Header combined with banner*/
+
+#logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #8F220E;
+    border-bottom: solid 0.1rem #DB563F;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Arvo', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#banner-pic {
+    max-height: 20rem;
+    overflow: hidden;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    border: solid 1rem #DB563F; 
+}
+
+h1 {
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about-us {
+    width: 80%;
+    text-align: center;
+    color:#8F220E;
+    margin-bottom: 3rem;
+}
+
+.header li {
+    list-style: none;
+    display: flex;
+    padding: 0.4rem 3rem 0.4rem 0;
+    flex-basis: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-size: larger;
+}
+
+ul.header {
+    width: 20%;
+    border-left: #DB563F 0.1rem solid;
+}
+
+a {
+    text-decoration: none;
+    color: #8F220E;
+}
+
+a:hover {
+    color: #DB563F ;
+  }
+
+  /*Regular events*/
+
+  /*events-center, tai padaro, kad visas būtų centre sulygiuotas*/
+  .events-center {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0rem 0 2rem 0;
+    border-width: 70%;
+}
+
+.events h2 {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#event-container {
+    background-image: url('./pictures/tara-evans-IcvR0jFbsz0-unsplash\ \(2\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 35rem;
+    width: 80%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1rem #DB563F;
+    flex-wrap: wrap;
+}
+
+#text-and-button-container {
+    height: 40rem;
+    width: 30rem;
+    text-align: center;
+    padding: 5rem 2rem 0 6rem;
+}
+
+.button {
+    width: 50%;
+    height: 3rem;
+    border: 0.1rem solid #8F220E;
+    text-align: center;
+    margin: auto;
+    padding: 4% 0 0 0;
+    border-radius: 2rem;
+    color:#8F220E;
+}
+
+.button:hover {
+    border-color: #4AD99C;
+    color: #4AD99C;
+    background-color: black;
+}
+
+h3 {
+    color: #4AD99C;
+}
+
+h2 {
+    color: #8F220E;
+    padding-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.events {
+    margin-bottom: 5rem;
+}
+
+/*Forum*/
+
+#center-box-forum {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#forum img {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    border: #4AD99C solid 0.2rem;
+}
+
+figcaption h3 {
+    color: #8F220E;
+  }
+
+figcaption h3:hover {
+    border-radius: 3rem;
+    color: #4AD99C;
+    background-color: black;
+}
+
+h2#forum-text {
+    text-align: center;
+}
+
+.forum-padding {
+    margin-bottom: 5rem;
+}
+
+/*Comunity*/
+
+.comunity-center {
+    display: flex;
+    justify-content: center;
+}
+
+#comunity h2 {
+    text-align: center;
+}
+
+.comunity-grid-container {
+    display: grid;
+    width: 95%;
+    height: 150rem;
+    justify-content: center;
+    grid-template: repeat(8, 1fr) / repeat(3, 30%);
+}
+
+.comunity-1 {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    background-image: url('./pictures/Comunity/alex-gorin-4LnR5BGiKNU-unsplash.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.comunity-2 {
+    grid-row: 1 / 3;
+    grid-column: 2 / 4;
+    background-image: url('./pictures/Comunity/david-vilches-d0v09fmxuXc-unsplash.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.comunity-3 {
+    grid-row: 3 / 5;
+    grid-column: 1 / 2;
+    background-image: url('./pictures/Comunity/fatma-yasam-akkus-YyBskz_lcJI-unsplash.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+
+.comunity-4 {
+    grid-row: 3 / 5;
+    grid-column: 3 / 4;
+    background-image: url('./pictures/Comunity/joyce-huis-Vq6KCyYGHt8-unsplash.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.comunity-5 {
+    grid-row: 3 / 5;
+    grid-column: 2 / 3;
+    background-image: url('./pictures/Comunity/marek-rucinski-gxMz8nWnmXg-unsplash.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.comunity-6 {
+    grid-row: 5 / 7;
+    grid-column: 1 / 3;
+    background-image: url('./pictures/Comunity/leah-hetteberg-vsp5kgaaDJo-unsplash.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.comunity-7 {
+    grid-row: 5 / 7;
+    grid-column: 3 / 4;
+    background-image: url('./pictures/Comunity/rocknwool-8Lsy75LqGVc-unsplash.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.comunity-8 {
+    grid-row: 7 / 9;
+    grid-column: 2 / 4;
+    background-image: url('./pictures/Comunity/senad-palic-Hhb22qU9b0M-unsplash.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.comunity-9 {
+    grid-row: 7 / 9;
+    grid-column: 1 / 2;
+    background-image: url('./pictures/Comunity/dmitry-ratushny-T8gLom6k8Jo-unsplash.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#comunity {
+    margin-bottom: 5rem;
+}
+
+/*Contacts*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: #8F220E;
+}
+
+footer h3 {
+    color: #8F220E;
+}
+
+.contacts {
+    text-align: center;
+}
+
+hr {
+    border: #DB563F solid 0.01rem;
+    width: 80%;
+}
+
+.nav-smaller-screen {
+    display: none;
+}
+
+@media only screen and (max-width: 1313px) {
+    #about-us h1 {
+        line-height: 1.4;
+        font-size: 1.1rem;
+    }
+    
+    #logo {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+}
+ 
+@media only screen and (max-width: 1185px) {
+    .header li {
+        font-size: 1rem;
+    }
+   
+    #logo {
+        font-size: 1.2rem;
+}
+}
+
+@media only screen and (max-width: 1066px) {
+    .smaller-nav-container nav li {
+        display: inline-flex;
+        padding: 0 3rem;
+        flex-wrap: wrap;
+        font-size: 1.2rem;
+    }
+
+    body {
+        margin: none;
+    }
+
+    #logo {
+       width: 10rem;
+       height: 3rem;
+       padding-left: 2rem;
+       border: none;
+       margin-top: 3rem;
+       color: #DB563F;
+    }
+
+    .nav-smaller-screen {
+        display: inline;
+    }
+
+    .nav-bigger-screen {
+        display: none;
+    }
+
+    ul.header {
+        border-left: none;
+        width: 80%;
+}
+
+    .smaller-nav-container {
+        display: flex;
+        align-items: center;
+   
+}
+
+    header {
+        justify-self: center;
+        border-bottom: 1px solid #DB563F;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('https://images.unsplash.com/photo-1609602644882-296541b474b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80');
+}
+
+    #header-center {
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+a {
+    text-decoration: none;
+    color: #DB563F;
+}
+
+a:hover {
+    color: palevioletred;
+  }
+
+.comunity-1 {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.comunity-2 {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.comunity-3 {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.comunity-4 {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.comunity-5 {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.comunity-6 {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.comunity-7 {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.comunity-8 {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.comunity-9 {
+    max-width: 40rem;
+    max-height: 20rem;
+}
+
+.comunity-grid-container {
+    height: 80rem;
+}
+}
+
+@media only screen and (max-width: 1025px) {
+    .smaller-nav-container nav li {
+        padding: 0 2rem;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .smaller-nav-container nav li {
+        padding: 1rem 2.3rem;  
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    #logo {
+        width: 8rem;
+        height: 3rem;
+        padding-left: 2rem;
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+
+    .smaller-nav-container nav li {
+        padding: 1rem 2.4rem;  
+    }
+
+    #event-container {
+        height: 25rem;
+        text-align: center;
+    }
+
+    #text-and-button-container h2 {
+        margin-top: 2rem;
+        width: 50%;
+        margin: auto;
+    }
+
+    #text-and-button-container {
+        height: 40rem;
+        width: 30rem;
+        text-align: center;
+    }
+    
+    .button {
+        height: 2rem;
+        width: 50%;
+    }
+    
+    h3.button {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .comunity-1 {
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+    
+    .comunity-2 {
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+    
+    .comunity-3 {
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+    
+    .comunity-4 {
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+    
+    .comunity-5 {
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+    
+    .comunity-6 {
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+    
+    .comunity-7 {
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+    
+    .comunity-8 {
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+    
+    .comunity-9 {
+        max-width: 20rem;
+        max-height: 10rem;
+    }
+    
+    .comunity-grid-container {
+        height: 40rem;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    h3.button {
+        font-size: 0.7rem;
+    }
+
+    #text-and-button-container h2 {
+        font-size: 0.8rem;
+    }
+
+    #forum img {
+        width: 15rem;
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    h3.button {
+        font-size: 0.4rem;
+        padding-top: 1rem;
+    }
+
+    #text-and-button-container h2 {
+        font-size: 0.6rem;
+    }
+}
